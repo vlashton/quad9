@@ -29,7 +29,7 @@ function LocalScoreManager() {
 }
 
 LocalScoreManager.prototype.get = function () {
-    return this.storage.getItem(this.key) || 0;
+    return JSON.parse(this.storage.getItem(this.key)) || 0;
 };
 
 LocalScoreManager.prototype.set = function (score) {
