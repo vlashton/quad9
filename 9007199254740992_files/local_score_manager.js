@@ -55,9 +55,9 @@ LocalScoreManager.prototype.saveState = function (grid, meta) {
 LocalScoreManager.prototype.clearState = function () {
     this.storage.removeItem(this.gridKey);
     this.storage.removeItem(this.metaKey);
-}
+};
 
 LocalScoreManager.prototype.hasData = function (size) {
     var t = JSON.parse(this.storage.getItem(this.gridKey));
     return null != t && t.size == size;
-}
+};
