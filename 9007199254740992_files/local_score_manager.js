@@ -21,9 +21,9 @@ window.fakeStorage = {
 function LocalScoreManager() {
     var localSupported = !!window.localStorage;
 
-    this.key = "bestScore_9007199254740992";
-    this.gridKey = "grid_9007199254740992";
-    this.metaKey = "meta_9007199254740992";
+    this.key = "bestScore_quad9";
+    this.gridKey = "grid_quad9";
+    this.metaKey = "meta_quad9";
 
     this.storage = localSupported ? window.localStorage : window.fakeStorage;
 }
