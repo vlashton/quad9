@@ -22,7 +22,7 @@ function GameManager(size, InputManager, Actuator, ScoreManager) {
 // Restart the game
 GameManager.prototype.restart = function () {
     this.actuator.restart();
-    this.setup();
+    this.startNew();
 };
 
 GameManager.prototype.displayMessage = function () {
