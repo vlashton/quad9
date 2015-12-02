@@ -187,8 +187,8 @@ hr {
     -moz-user-select: none;
     background: #bbada0;
     border-radius: 6px;
-    width: 984px;
-    height: 984px;
+    width: 1957px;
+    height: 1957px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -284,393 +284,1031 @@ hr {
 .tile {
     width: 106.25px;
     height: 106.25px;
-    line-height: 116.25px;
-}
-
+    line-height: 116.25px; }
 .tile.tile-position-1-1 {
     position: absolute;
     left: 0px;
-    top: 0px;
-}
-
+    top: 0px; }
 .tile.tile-position-1-2 {
     position: absolute;
     left: 0px;
-    top: 121px;
-}
-
+    top: 121px; }
 .tile.tile-position-1-3 {
     position: absolute;
     left: 0px;
-    top: 243px;
-}
-
+    top: 243px; }
 .tile.tile-position-1-4 {
     position: absolute;
     left: 0px;
-    top: 364px;
-}
-
+    top: 364px; }
 .tile.tile-position-1-5 {
     position: absolute;
     left: 0px;
-    top: 485px;
-}
-
+    top: 485px; }
 .tile.tile-position-1-6 {
     position: absolute;
     left: 0px;
-    top: 606px;
-}
-
+    top: 606px; }
 .tile.tile-position-1-7 {
     position: absolute;
     left: 0px;
-    top: 728px;
-}
-
+    top: 728px; }
 .tile.tile-position-1-8 {
     position: absolute;
     left: 0px;
-    top: 849px;
-}
-
+    top: 849px; }
+.tile.tile-position-1-9 {
+    position: absolute;
+    left: 0px;
+    top: 970px; }
+.tile.tile-position-1-10 {
+    position: absolute;
+    left: 0px;
+    top: 1091px; }
+.tile.tile-position-1-11 {
+    position: absolute;
+    left: 0px;
+    top: 1212px; }
+.tile.tile-position-1-12 {
+    position: absolute;
+    left: 0px;
+    top: 1333px; }
+.tile.tile-position-1-13 {
+    position: absolute;
+    left: 0px;
+    top: 1454px; }
+.tile.tile-position-1-14 {
+    position: absolute;
+    left: 0px;
+    top: 1575px; }
+.tile.tile-position-1-15 {
+    position: absolute;
+    left: 0px;
+    top: 1696px; }
+.tile.tile-position-1-16 {
+    position: absolute;
+    left: 0px;
+    top: 1817px; }
 .tile.tile-position-2-1 {
     position: absolute;
     left: 121px;
-    top: 0px;
-}
-
+    top: 0px; }
 .tile.tile-position-2-2 {
     position: absolute;
     left: 121px;
-    top: 121px;
-}
-
+    top: 121px; }
 .tile.tile-position-2-3 {
     position: absolute;
     left: 121px;
-    top: 243px;
-}
-
+    top: 243px; }
 .tile.tile-position-2-4 {
     position: absolute;
     left: 121px;
-    top: 364px;
-}
-
+    top: 364px; }
 .tile.tile-position-2-5 {
     position: absolute;
     left: 121px;
-    top: 485px;
-}
-
+    top: 485px; }
 .tile.tile-position-2-6 {
     position: absolute;
     left: 121px;
-    top: 606px;
-}
-
+    top: 606px; }
 .tile.tile-position-2-7 {
     position: absolute;
     left: 121px;
-    top: 728px;
-}
-
+    top: 728px; }
 .tile.tile-position-2-8 {
     position: absolute;
     left: 121px;
-    top: 849px;
-}
-
+    top: 849px; }
+.tile.tile-position-2-9 {
+    position: absolute;
+    left: 121px;
+    top: 970px; }
+.tile.tile-position-2-10 {
+    position: absolute;
+    left: 121px;
+    top: 1091px; }
+.tile.tile-position-2-11 {
+    position: absolute;
+    left: 121px;
+    top: 1212px; }
+.tile.tile-position-2-12 {
+    position: absolute;
+    left: 121px;
+    top: 1333px; }
+.tile.tile-position-2-13 {
+    position: absolute;
+    left: 121px;
+    top: 1454px; }
+.tile.tile-position-2-14 {
+    position: absolute;
+    left: 121px;
+    top: 1575px; }
+.tile.tile-position-2-15 {
+    position: absolute;
+    left: 121px;
+    top: 1696px; }
+.tile.tile-position-2-16 {
+    position: absolute;
+    left: 121px;
+    top: 1817px; }
 .tile.tile-position-3-1 {
     position: absolute;
     left: 243px;
-    top: 0px;
-}
-
+    top: 0px; }
 .tile.tile-position-3-2 {
     position: absolute;
     left: 243px;
-    top: 121px;
-}
-
+    top: 121px; }
 .tile.tile-position-3-3 {
     position: absolute;
     left: 243px;
-    top: 243px;
-}
-
+    top: 243px; }
 .tile.tile-position-3-4 {
     position: absolute;
     left: 243px;
-    top: 364px;
-}
-
+    top: 364px; }
 .tile.tile-position-3-5 {
     position: absolute;
     left: 243px;
-    top: 485px;
-}
-
+    top: 485px; }
 .tile.tile-position-3-6 {
     position: absolute;
     left: 243px;
-    top: 606px;
-}
-
+    top: 606px; }
 .tile.tile-position-3-7 {
     position: absolute;
     left: 243px;
-    top: 728px;
-}
-
+    top: 728px; }
 .tile.tile-position-3-8 {
     position: absolute;
     left: 243px;
-    top: 849px;
-}
-
+    top: 849px; }
+.tile.tile-position-3-9 {
+    position: absolute;
+    left: 243px;
+    top: 970px; }
+.tile.tile-position-3-10 {
+    position: absolute;
+    left: 243px;
+    top: 1091px; }
+.tile.tile-position-3-11 {
+    position: absolute;
+    left: 243px;
+    top: 1212px; }
+.tile.tile-position-3-12 {
+    position: absolute;
+    left: 243px;
+    top: 1333px; }
+.tile.tile-position-3-13 {
+    position: absolute;
+    left: 243px;
+    top: 1454px; }
+.tile.tile-position-3-14 {
+    position: absolute;
+    left: 243px;
+    top: 1575px; }
+.tile.tile-position-3-15 {
+    position: absolute;
+    left: 243px;
+    top: 1696px; }
+.tile.tile-position-3-16 {
+    position: absolute;
+    left: 243px;
+    top: 1817px; }
 .tile.tile-position-4-1 {
     position: absolute;
     left: 364px;
-    top: 0px;
-}
-
+    top: 0px; }
 .tile.tile-position-4-2 {
     position: absolute;
     left: 364px;
-    top: 121px;
-}
-
+    top: 121px; }
 .tile.tile-position-4-3 {
     position: absolute;
     left: 364px;
-    top: 243px;
-}
-
+    top: 243px; }
 .tile.tile-position-4-4 {
     position: absolute;
     left: 364px;
-    top: 364px;
-}
-
+    top: 364px; }
 .tile.tile-position-4-5 {
     position: absolute;
     left: 364px;
-    top: 485px;
-}
-
+    top: 485px; }
 .tile.tile-position-4-6 {
     position: absolute;
     left: 364px;
-    top: 606px;
-}
-
+    top: 606px; }
 .tile.tile-position-4-7 {
     position: absolute;
     left: 364px;
-    top: 728px;
-}
-
+    top: 728px; }
 .tile.tile-position-4-8 {
     position: absolute;
     left: 364px;
-    top: 849px;
-}
-
+    top: 849px; }
+.tile.tile-position-4-9 {
+    position: absolute;
+    left: 364px;
+    top: 970px; }
+.tile.tile-position-4-10 {
+    position: absolute;
+    left: 364px;
+    top: 1091px; }
+.tile.tile-position-4-11 {
+    position: absolute;
+    left: 364px;
+    top: 1212px; }
+.tile.tile-position-4-12 {
+    position: absolute;
+    left: 364px;
+    top: 1333px; }
+.tile.tile-position-4-13 {
+    position: absolute;
+    left: 364px;
+    top: 1454px; }
+.tile.tile-position-4-14 {
+    position: absolute;
+    left: 364px;
+    top: 1575px; }
+.tile.tile-position-4-15 {
+    position: absolute;
+    left: 364px;
+    top: 1696px; }
+.tile.tile-position-4-16 {
+    position: absolute;
+    left: 364px;
+    top: 1817px; }
 .tile.tile-position-5-1 {
     position: absolute;
     left: 485px;
-    top: 0px;
-}
-
+    top: 0px; }
 .tile.tile-position-5-2 {
     position: absolute;
     left: 485px;
-    top: 121px;
-}
-
+    top: 121px; }
 .tile.tile-position-5-3 {
     position: absolute;
     left: 485px;
-    top: 243px;
-}
-
+    top: 243px; }
 .tile.tile-position-5-4 {
     position: absolute;
     left: 485px;
-    top: 364px;
-}
-
+    top: 364px; }
 .tile.tile-position-5-5 {
     position: absolute;
     left: 485px;
-    top: 485px;
-}
-
+    top: 485px; }
 .tile.tile-position-5-6 {
     position: absolute;
     left: 485px;
-    top: 606px;
-}
-
+    top: 606px; }
 .tile.tile-position-5-7 {
     position: absolute;
     left: 485px;
-    top: 728px;
-}
-
+    top: 728px; }
 .tile.tile-position-5-8 {
     position: absolute;
     left: 485px;
-    top: 849px;
-}
-
+    top: 849px; }
+.tile.tile-position-5-9 {
+    position: absolute;
+    left: 485px;
+    top: 970px; }
+.tile.tile-position-5-10 {
+    position: absolute;
+    left: 485px;
+    top: 1091px; }
+.tile.tile-position-5-11 {
+    position: absolute;
+    left: 485px;
+    top: 1212px; }
+.tile.tile-position-5-12 {
+    position: absolute;
+    left: 485px;
+    top: 1333px; }
+.tile.tile-position-5-13 {
+    position: absolute;
+    left: 485px;
+    top: 1454px; }
+.tile.tile-position-5-14 {
+    position: absolute;
+    left: 485px;
+    top: 1575px; }
+.tile.tile-position-5-15 {
+    position: absolute;
+    left: 485px;
+    top: 1696px; }
+.tile.tile-position-5-16 {
+    position: absolute;
+    left: 485px;
+    top: 1817px; }
 .tile.tile-position-6-1 {
     position: absolute;
     left: 606px;
-    top: 0px;
-}
-
+    top: 0px; }
 .tile.tile-position-6-2 {
     position: absolute;
     left: 606px;
-    top: 121px;
-}
-
+    top: 121px; }
 .tile.tile-position-6-3 {
     position: absolute;
     left: 606px;
-    top: 243px;
-}
-
+    top: 243px; }
 .tile.tile-position-6-4 {
     position: absolute;
     left: 606px;
-    top: 364px;
-}
-
+    top: 364px; }
 .tile.tile-position-6-5 {
     position: absolute;
     left: 606px;
-    top: 485px;
-}
-
+    top: 485px; }
 .tile.tile-position-6-6 {
     position: absolute;
     left: 606px;
-    top: 606px;
-}
-
+    top: 606px; }
 .tile.tile-position-6-7 {
     position: absolute;
     left: 606px;
-    top: 728px;
-}
-
+    top: 728px; }
 .tile.tile-position-6-8 {
     position: absolute;
     left: 606px;
-    top: 849px;
-}
-
+    top: 849px; }
+.tile.tile-position-6-9 {
+    position: absolute;
+    left: 606px;
+    top: 970px; }
+.tile.tile-position-6-10 {
+    position: absolute;
+    left: 606px;
+    top: 1091px; }
+.tile.tile-position-6-11 {
+    position: absolute;
+    left: 606px;
+    top: 1212px; }
+.tile.tile-position-6-12 {
+    position: absolute;
+    left: 606px;
+    top: 1333px; }
+.tile.tile-position-6-13 {
+    position: absolute;
+    left: 606px;
+    top: 1454px; }
+.tile.tile-position-6-14 {
+    position: absolute;
+    left: 606px;
+    top: 1575px; }
+.tile.tile-position-6-15 {
+    position: absolute;
+    left: 606px;
+    top: 1696px; }
+.tile.tile-position-6-16 {
+    position: absolute;
+    left: 606px;
+    top: 1817px; }
 .tile.tile-position-7-1 {
     position: absolute;
     left: 728px;
-    top: 0px;
-}
-
+    top: 0px; }
 .tile.tile-position-7-2 {
     position: absolute;
     left: 728px;
-    top: 121px;
-}
-
+    top: 121px; }
 .tile.tile-position-7-3 {
     position: absolute;
     left: 728px;
-    top: 243px;
-}
-
+    top: 243px; }
 .tile.tile-position-7-4 {
     position: absolute;
     left: 728px;
-    top: 364px;
-}
-
+    top: 364px; }
 .tile.tile-position-7-5 {
     position: absolute;
     left: 728px;
-    top: 485px;
-}
-
+    top: 485px; }
 .tile.tile-position-7-6 {
     position: absolute;
     left: 728px;
-    top: 606px;
-}
-
+    top: 606px; }
 .tile.tile-position-7-7 {
     position: absolute;
     left: 728px;
-    top: 728px;
-}
-
+    top: 728px; }
 .tile.tile-position-7-8 {
     position: absolute;
     left: 728px;
-    top: 849px;
-}
-
+    top: 849px; }
+.tile.tile-position-7-9 {
+    position: absolute;
+    left: 728px;
+    top: 970px; }
+.tile.tile-position-7-10 {
+    position: absolute;
+    left: 728px;
+    top: 1091px; }
+.tile.tile-position-7-11 {
+    position: absolute;
+    left: 728px;
+    top: 1212px; }
+.tile.tile-position-7-12 {
+    position: absolute;
+    left: 728px;
+    top: 1333px; }
+.tile.tile-position-7-13 {
+    position: absolute;
+    left: 728px;
+    top: 1454px; }
+.tile.tile-position-7-14 {
+    position: absolute;
+    left: 728px;
+    top: 1575px; }
+.tile.tile-position-7-15 {
+    position: absolute;
+    left: 728px;
+    top: 1696px; }
+.tile.tile-position-7-16 {
+    position: absolute;
+    left: 728px;
+    top: 1817px; }
 .tile.tile-position-8-1 {
     position: absolute;
     left: 849px;
-    top: 0px;
-}
-
+    top: 0px; }
 .tile.tile-position-8-2 {
     position: absolute;
     left: 849px;
-    top: 121px;
-}
-
+    top: 121px; }
 .tile.tile-position-8-3 {
     position: absolute;
     left: 849px;
-    top: 243px;
-}
-
+    top: 243px; }
 .tile.tile-position-8-4 {
     position: absolute;
     left: 849px;
-    top: 364px;
-}
-
+    top: 364px; }
 .tile.tile-position-8-5 {
     position: absolute;
     left: 849px;
-    top: 485px;
-}
-
+    top: 485px; }
 .tile.tile-position-8-6 {
     position: absolute;
     left: 849px;
-    top: 606px;
-}
-
+    top: 606px; }
 .tile.tile-position-8-7 {
     position: absolute;
     left: 849px;
-    top: 728px;
-}
-
+    top: 728px; }
 .tile.tile-position-8-8 {
     position: absolute;
     left: 849px;
-    top: 849px;
-}
-
+    top: 849px; }
+.tile.tile-position-8-9 {
+    position: absolute;
+    left: 849px;
+    top: 970px; }
+.tile.tile-position-8-10 {
+    position: absolute;
+    left: 849px;
+    top: 1091px; }
+.tile.tile-position-8-11 {
+    position: absolute;
+    left: 849px;
+    top: 1212px; }
+.tile.tile-position-8-12 {
+    position: absolute;
+    left: 849px;
+    top: 1333px; }
+.tile.tile-position-8-13 {
+    position: absolute;
+    left: 849px;
+    top: 1454px; }
+.tile.tile-position-8-14 {
+    position: absolute;
+    left: 849px;
+    top: 1575px; }
+.tile.tile-position-8-15 {
+    position: absolute;
+    left: 849px;
+    top: 1696px; }
+.tile.tile-position-8-16 {
+    position: absolute;
+    left: 849px;
+    top: 1817px; }
+.tile.tile-position-9-1 {
+    position: absolute;
+    left: 970px;
+    top: 0px; }
+.tile.tile-position-9-2 {
+    position: absolute;
+    left: 970px;
+    top: 121px; }
+.tile.tile-position-9-3 {
+    position: absolute;
+    left: 970px;
+    top: 243px; }
+.tile.tile-position-9-4 {
+    position: absolute;
+    left: 970px;
+    top: 364px; }
+.tile.tile-position-9-5 {
+    position: absolute;
+    left: 970px;
+    top: 485px; }
+.tile.tile-position-9-6 {
+    position: absolute;
+    left: 970px;
+    top: 606px; }
+.tile.tile-position-9-7 {
+    position: absolute;
+    left: 970px;
+    top: 728px; }
+.tile.tile-position-9-8 {
+    position: absolute;
+    left: 970px;
+    top: 849px; }
+.tile.tile-position-9-9 {
+    position: absolute;
+    left: 970px;
+    top: 970px; }
+.tile.tile-position-9-10 {
+    position: absolute;
+    left: 970px;
+    top: 1091px; }
+.tile.tile-position-9-11 {
+    position: absolute;
+    left: 970px;
+    top: 1212px; }
+.tile.tile-position-9-12 {
+    position: absolute;
+    left: 970px;
+    top: 1333px; }
+.tile.tile-position-9-13 {
+    position: absolute;
+    left: 970px;
+    top: 1454px; }
+.tile.tile-position-9-14 {
+    position: absolute;
+    left: 970px;
+    top: 1575px; }
+.tile.tile-position-9-15 {
+    position: absolute;
+    left: 970px;
+    top: 1696px; }
+.tile.tile-position-9-16 {
+    position: absolute;
+    left: 970px;
+    top: 1817px; }
+.tile.tile-position-10-1 {
+    position: absolute;
+    left: 1091px;
+    top: 0px; }
+.tile.tile-position-10-2 {
+    position: absolute;
+    left: 1091px;
+    top: 121px; }
+.tile.tile-position-10-3 {
+    position: absolute;
+    left: 1091px;
+    top: 243px; }
+.tile.tile-position-10-4 {
+    position: absolute;
+    left: 1091px;
+    top: 364px; }
+.tile.tile-position-10-5 {
+    position: absolute;
+    left: 1091px;
+    top: 485px; }
+.tile.tile-position-10-6 {
+    position: absolute;
+    left: 1091px;
+    top: 606px; }
+.tile.tile-position-10-7 {
+    position: absolute;
+    left: 1091px;
+    top: 728px; }
+.tile.tile-position-10-8 {
+    position: absolute;
+    left: 1091px;
+    top: 849px; }
+.tile.tile-position-10-9 {
+    position: absolute;
+    left: 1091px;
+    top: 970px; }
+.tile.tile-position-10-10 {
+    position: absolute;
+    left: 1091px;
+    top: 1091px; }
+.tile.tile-position-10-11 {
+    position: absolute;
+    left: 1091px;
+    top: 1212px; }
+.tile.tile-position-10-12 {
+    position: absolute;
+    left: 1091px;
+    top: 1333px; }
+.tile.tile-position-10-13 {
+    position: absolute;
+    left: 1091px;
+    top: 1454px; }
+.tile.tile-position-10-14 {
+    position: absolute;
+    left: 1091px;
+    top: 1575px; }
+.tile.tile-position-10-15 {
+    position: absolute;
+    left: 1091px;
+    top: 1696px; }
+.tile.tile-position-10-16 {
+    position: absolute;
+    left: 1091px;
+    top: 1817px; }
+.tile.tile-position-11-1 {
+    position: absolute;
+    left: 1212px;
+    top: 0px; }
+.tile.tile-position-11-2 {
+    position: absolute;
+    left: 1212px;
+    top: 121px; }
+.tile.tile-position-11-3 {
+    position: absolute;
+    left: 1212px;
+    top: 243px; }
+.tile.tile-position-11-4 {
+    position: absolute;
+    left: 1212px;
+    top: 364px; }
+.tile.tile-position-11-5 {
+    position: absolute;
+    left: 1212px;
+    top: 485px; }
+.tile.tile-position-11-6 {
+    position: absolute;
+    left: 1212px;
+    top: 606px; }
+.tile.tile-position-11-7 {
+    position: absolute;
+    left: 1212px;
+    top: 728px; }
+.tile.tile-position-11-8 {
+    position: absolute;
+    left: 1212px;
+    top: 849px; }
+.tile.tile-position-11-9 {
+    position: absolute;
+    left: 1212px;
+    top: 970px; }
+.tile.tile-position-11-10 {
+    position: absolute;
+    left: 1212px;
+    top: 1091px; }
+.tile.tile-position-11-11 {
+    position: absolute;
+    left: 1212px;
+    top: 1212px; }
+.tile.tile-position-11-12 {
+    position: absolute;
+    left: 1212px;
+    top: 1333px; }
+.tile.tile-position-11-13 {
+    position: absolute;
+    left: 1212px;
+    top: 1454px; }
+.tile.tile-position-11-14 {
+    position: absolute;
+    left: 1212px;
+    top: 1575px; }
+.tile.tile-position-11-15 {
+    position: absolute;
+    left: 1212px;
+    top: 1696px; }
+.tile.tile-position-11-16 {
+    position: absolute;
+    left: 1212px;
+    top: 1817px; }
+.tile.tile-position-12-1 {
+    position: absolute;
+    left: 1333px;
+    top: 0px; }
+.tile.tile-position-12-2 {
+    position: absolute;
+    left: 1333px;
+    top: 121px; }
+.tile.tile-position-12-3 {
+    position: absolute;
+    left: 1333px;
+    top: 243px; }
+.tile.tile-position-12-4 {
+    position: absolute;
+    left: 1333px;
+    top: 364px; }
+.tile.tile-position-12-5 {
+    position: absolute;
+    left: 1333px;
+    top: 485px; }
+.tile.tile-position-12-6 {
+    position: absolute;
+    left: 1333px;
+    top: 606px; }
+.tile.tile-position-12-7 {
+    position: absolute;
+    left: 1333px;
+    top: 728px; }
+.tile.tile-position-12-8 {
+    position: absolute;
+    left: 1333px;
+    top: 849px; }
+.tile.tile-position-12-9 {
+    position: absolute;
+    left: 1333px;
+    top: 970px; }
+.tile.tile-position-12-10 {
+    position: absolute;
+    left: 1333px;
+    top: 1091px; }
+.tile.tile-position-12-11 {
+    position: absolute;
+    left: 1333px;
+    top: 1212px; }
+.tile.tile-position-12-12 {
+    position: absolute;
+    left: 1333px;
+    top: 1333px; }
+.tile.tile-position-12-13 {
+    position: absolute;
+    left: 1333px;
+    top: 1454px; }
+.tile.tile-position-12-14 {
+    position: absolute;
+    left: 1333px;
+    top: 1575px; }
+.tile.tile-position-12-15 {
+    position: absolute;
+    left: 1333px;
+    top: 1696px; }
+.tile.tile-position-12-16 {
+    position: absolute;
+    left: 1333px;
+    top: 1817px; }
+.tile.tile-position-13-1 {
+    position: absolute;
+    left: 1454px;
+    top: 0px; }
+.tile.tile-position-13-2 {
+    position: absolute;
+    left: 1454px;
+    top: 121px; }
+.tile.tile-position-13-3 {
+    position: absolute;
+    left: 1454px;
+    top: 243px; }
+.tile.tile-position-13-4 {
+    position: absolute;
+    left: 1454px;
+    top: 364px; }
+.tile.tile-position-13-5 {
+    position: absolute;
+    left: 1454px;
+    top: 485px; }
+.tile.tile-position-13-6 {
+    position: absolute;
+    left: 1454px;
+    top: 606px; }
+.tile.tile-position-13-7 {
+    position: absolute;
+    left: 1454px;
+    top: 728px; }
+.tile.tile-position-13-8 {
+    position: absolute;
+    left: 1454px;
+    top: 849px; }
+.tile.tile-position-13-9 {
+    position: absolute;
+    left: 1454px;
+    top: 970px; }
+.tile.tile-position-13-10 {
+    position: absolute;
+    left: 1454px;
+    top: 1091px; }
+.tile.tile-position-13-11 {
+    position: absolute;
+    left: 1454px;
+    top: 1212px; }
+.tile.tile-position-13-12 {
+    position: absolute;
+    left: 1454px;
+    top: 1333px; }
+.tile.tile-position-13-13 {
+    position: absolute;
+    left: 1454px;
+    top: 1454px; }
+.tile.tile-position-13-14 {
+    position: absolute;
+    left: 1454px;
+    top: 1575px; }
+.tile.tile-position-13-15 {
+    position: absolute;
+    left: 1454px;
+    top: 1696px; }
+.tile.tile-position-13-16 {
+    position: absolute;
+    left: 1454px;
+    top: 1817px; }
+.tile.tile-position-14-1 {
+    position: absolute;
+    left: 1575px;
+    top: 0px; }
+.tile.tile-position-14-2 {
+    position: absolute;
+    left: 1575px;
+    top: 121px; }
+.tile.tile-position-14-3 {
+    position: absolute;
+    left: 1575px;
+    top: 243px; }
+.tile.tile-position-14-4 {
+    position: absolute;
+    left: 1575px;
+    top: 364px; }
+.tile.tile-position-14-5 {
+    position: absolute;
+    left: 1575px;
+    top: 485px; }
+.tile.tile-position-14-6 {
+    position: absolute;
+    left: 1575px;
+    top: 606px; }
+.tile.tile-position-14-7 {
+    position: absolute;
+    left: 1575px;
+    top: 728px; }
+.tile.tile-position-14-8 {
+    position: absolute;
+    left: 1575px;
+    top: 849px; }
+.tile.tile-position-14-9 {
+    position: absolute;
+    left: 1575px;
+    top: 970px; }
+.tile.tile-position-14-10 {
+    position: absolute;
+    left: 1575px;
+    top: 1091px; }
+.tile.tile-position-14-11 {
+    position: absolute;
+    left: 1575px;
+    top: 1212px; }
+.tile.tile-position-14-12 {
+    position: absolute;
+    left: 1575px;
+    top: 1333px; }
+.tile.tile-position-14-13 {
+    position: absolute;
+    left: 1575px;
+    top: 1454px; }
+.tile.tile-position-14-14 {
+    position: absolute;
+    left: 1575px;
+    top: 1575px; }
+.tile.tile-position-14-15 {
+    position: absolute;
+    left: 1575px;
+    top: 1696px; }
+.tile.tile-position-14-16 {
+    position: absolute;
+    left: 1575px;
+    top: 1817px; }
+.tile.tile-position-15-1 {
+    position: absolute;
+    left: 1696px;
+    top: 0px; }
+.tile.tile-position-15-2 {
+    position: absolute;
+    left: 1696px;
+    top: 121px; }
+.tile.tile-position-15-3 {
+    position: absolute;
+    left: 1696px;
+    top: 243px; }
+.tile.tile-position-15-4 {
+    position: absolute;
+    left: 1696px;
+    top: 364px; }
+.tile.tile-position-15-5 {
+    position: absolute;
+    left: 1696px;
+    top: 485px; }
+.tile.tile-position-15-6 {
+    position: absolute;
+    left: 1696px;
+    top: 606px; }
+.tile.tile-position-15-7 {
+    position: absolute;
+    left: 1696px;
+    top: 728px; }
+.tile.tile-position-15-8 {
+    position: absolute;
+    left: 1696px;
+    top: 849px; }
+.tile.tile-position-15-9 {
+    position: absolute;
+    left: 1696px;
+    top: 970px; }
+.tile.tile-position-15-10 {
+    position: absolute;
+    left: 1696px;
+    top: 1091px; }
+.tile.tile-position-15-11 {
+    position: absolute;
+    left: 1696px;
+    top: 1212px; }
+.tile.tile-position-15-12 {
+    position: absolute;
+    left: 1696px;
+    top: 1333px; }
+.tile.tile-position-15-13 {
+    position: absolute;
+    left: 1696px;
+    top: 1454px; }
+.tile.tile-position-15-14 {
+    position: absolute;
+    left: 1696px;
+    top: 1575px; }
+.tile.tile-position-15-15 {
+    position: absolute;
+    left: 1696px;
+    top: 1696px; }
+.tile.tile-position-15-16 {
+    position: absolute;
+    left: 1696px;
+    top: 1817px; }
+.tile.tile-position-16-1 {
+    position: absolute;
+    left: 1817px;
+    top: 0px; }
+.tile.tile-position-16-2 {
+    position: absolute;
+    left: 1817px;
+    top: 121px; }
+.tile.tile-position-16-3 {
+    position: absolute;
+    left: 1817px;
+    top: 243px; }
+.tile.tile-position-16-4 {
+    position: absolute;
+    left: 1817px;
+    top: 364px; }
+.tile.tile-position-16-5 {
+    position: absolute;
+    left: 1817px;
+    top: 485px; }
+.tile.tile-position-16-6 {
+    position: absolute;
+    left: 1817px;
+    top: 606px; }
+.tile.tile-position-16-7 {
+    position: absolute;
+    left: 1817px;
+    top: 728px; }
+.tile.tile-position-16-8 {
+    position: absolute;
+    left: 1817px;
+    top: 849px; }
+.tile.tile-position-16-9 {
+    position: absolute;
+    left: 1817px;
+    top: 970px; }
+.tile.tile-position-16-10 {
+    position: absolute;
+    left: 1817px;
+    top: 1091px; }
+.tile.tile-position-16-11 {
+    position: absolute;
+    left: 1817px;
+    top: 1212px; }
+.tile.tile-position-16-12 {
+    position: absolute;
+    left: 1817px;
+    top: 1333px; }
+.tile.tile-position-16-13 {
+    position: absolute;
+    left: 1817px;
+    top: 1454px; }
+.tile.tile-position-16-14 {
+    position: absolute;
+    left: 1817px;
+    top: 1575px; }
+.tile.tile-position-16-15 {
+    position: absolute;
+    left: 1817px;
+    top: 1696px; }
+.tile.tile-position-16-16 {
+    position: absolute;
+    left: 1817px;
+    top: 1817px; }
 .tile {
     border-radius: 3px;
     background: #eee4da;
