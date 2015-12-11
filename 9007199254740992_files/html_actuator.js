@@ -87,8 +87,8 @@ HTMLActuator.prototype.addTile = function (tile) {
 
     // We can't use classlist because it somehow glitches when replacing classes
     var classes = ["tile", "tile-" + tile.value, positionClass];
-    if (tile.value > 1048576)
-        classes = ["tile", "tile-" + 1048576, positionClass];
+    //if (tile.value > 1048576)
+    //    classes = ["tile", "tile-" + 1048576, positionClass];
     this.applyClasses(element, classes);
 
     textVal = self.translateValue(tile.value);
