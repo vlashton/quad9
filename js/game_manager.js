@@ -88,7 +88,7 @@ GameManager.prototype.autoSave = function () {
 
 // Set up the initial tiles to start the game with
 GameManager.prototype.addStartTiles = function () {
-    this.addSequentialTiles();
+    //this.addSequentialTiles();
     for (var i = 0; i < this.startTiles; i++) {
         this.addRandomTile();
     }
@@ -96,7 +96,7 @@ GameManager.prototype.addStartTiles = function () {
 
 // Populates all available tiles with increasing values
 GameManager.prototype.addSequentialTiles = function () {
-    var power = 0;
+    var power = -1;
     var cells = this.grid.availableCells();
     while (cells.length > 0) {
         power += 1;
