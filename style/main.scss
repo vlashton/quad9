@@ -11,307 +11,305 @@ $tile-border-radius: 3px;
 $text-color: #776e65;
 
 html, body {
-    margin:      0;
-    padding:     0;
-    background:  #faf8ef;
-    color:       $text-color;
-    font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
-    font-size:   18px;
+  margin:      0;
+  padding:     0;
+  background:  #faf8ef;
+  color:       $text-color;
+  font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+  font-size:   18px;
 }
 body {
-    margin: 80px 0;
+  margin: 80px 0;
 }
 .heading:after {
-    content: "";
-    display: block;
-    clear:   both;
+  content: "";
+  display: block;
+  clear:   both;
 }
 h1.title {
-    font-size:   80px;
-    font-weight: bold;
-    margin:      0;
-    display:     block;
-    float:       left;
+  font-size:   80px;
+  font-weight: bold;
+  margin:      0;
+  display:     block;
+  float:       left;
 }
 .sidebar {
-    margin:                20px $sidebar-margin-right 20px 0;
-    padding:               10px;
-    cursor:                default;
-    -webkit-touch-callout: none;
-    -webkit-user-select:   none;
-    -moz-user-select:      none;
-    background:            #d8d4d0;
-    border-radius:         6px;
-    width:                 $sidebar-width;
-    height:                1090px;
-    float:                 left;
-    -webkit-box-sizing:    border-box;
-    -moz-box-sizing:       border-box;
-    box-sizing:            border-box;
-    top:                   10px;
-    left:                  0;
-    text-transform:        uppercase;
-    font-size:             13px;
-    line-height:           13px;
-    text-align:            center;
-    color:                 black;
+  margin:                20px $sidebar-margin-right 20px 0;
+  padding:               10px;
+  cursor:                default;
+  -webkit-touch-callout: none;
+  -webkit-user-select:   none;
+  -moz-user-select:      none;
+  background:            #d8d4d0;
+  border-radius:         6px;
+  width:                 $sidebar-width;
+  height:                1090px;
+  float:                 left;
+  -webkit-box-sizing:    border-box;
+  -moz-box-sizing:       border-box;
+  box-sizing:            border-box;
+  top:                   10px;
+  left:                  0;
+  text-transform:        uppercase;
+  font-size:             13px;
+  line-height:           13px;
+  text-align:            center;
+  color:                 black;
 }
 @-webkit-keyframes move-up {
-    0% {
-        top:     25px;
-        opacity: 1;
-    }
+  0% {
+    top:     25px;
+    opacity: 1;
+  }
 
-    100% {
-        top:     -50px;
-        opacity: 0;
-    }
+  100% {
+    top:     -50px;
+    opacity: 0;
+  }
 }
 @-moz-keyframes move-up {
-    0% {
-        top:     25px;
-        opacity: 1;
-    }
+  0% {
+    top:     25px;
+    opacity: 1;
+  }
 
-    100% {
-        top:     -50px;
-        opacity: 0;
-    }
+  100% {
+    top:     -50px;
+    opacity: 0;
+  }
 }
 @keyframes move-up {
-    0% {
-        top:     25px;
-        opacity: 1;
-    }
+  0% {
+    top:     25px;
+    opacity: 1;
+  }
 
-    100% {
-        top:     -50px;
-        opacity: 0;
-    }
+  100% {
+    top:     -50px;
+    opacity: 0;
+  }
 }
 .scores-container {
-    float:      right;
-    text-align: right;
+  float:      right;
+  text-align: right;
 }
 .score-container, .best-container {
-    position:      relative;
-    display:       inline-block;
-    background:    #bbada0;
-    padding:       15px 25px;
-    font-size:     25px;
-    height:        25px;
-    line-height:   47px;
-    font-weight:   bold;
-    border-radius: 3px;
-    color:         white;
-    margin-top:    8px;
-    text-align:    center;
+  position:      relative;
+  display:       inline-block;
+  background:    #bbada0;
+  padding:       15px 25px;
+  font-size:     25px;
+  height:        25px;
+  line-height:   47px;
+  font-weight:   bold;
+  border-radius: 3px;
+  color:         white;
+  margin-top:    8px;
+  text-align:    center;
 }
 .score-container:after, .best-container:after {
-    position:       absolute;
-    width:          100%;
-    top:            10px;
-    left:           0;
-    text-transform: uppercase;
-    font-size:      13px;
-    line-height:    13px;
-    text-align:     center;
-    color:          #eee4da;
+  position:       absolute;
+  width:          100%;
+  top:            10px;
+  left:           0;
+  text-transform: uppercase;
+  font-size:      13px;
+  line-height:    13px;
+  text-align:     center;
+  color:          #eee4da;
 }
 .score-container .score-addition, .best-container .score-addition {
-    position:                    absolute;
-    right:                       30px;
-    color:                       red;
-    font-size:                   25px;
-    line-height:                 25px;
-    font-weight:                 bold;
-    color:                       rgba(119, 110, 101, 0.9);
-    z-index:                     100;
-    -webkit-animation:           move-up 600ms ease-in;
-    -moz-animation:              move-up 600ms ease-in;
-    -webkit-animation-fill-mode: both;
-    -moz-animation-fill-mode:    both;
+  position:                    absolute;
+  right:                       30px;
+  color:                       red;
+  font-size:                   25px;
+  line-height:                 25px;
+  font-weight:                 bold;
+  color:                       rgba(119, 110, 101, 0.9);
+  z-index:                     100;
+  -webkit-animation:           move-up 600ms ease-in;
+  -moz-animation:              move-up 600ms ease-in;
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode:    both;
 }
 .score-container:after {
-    content: "Score";
+  content: "Score";
 }
 .best-container:after {
-    content: "Best";
+  content: "Best";
 }
 p {
-    margin-top:    0;
-    margin-bottom: 10px;
-    line-height:   1.65;
+  margin-top:    0;
+  margin-bottom: 10px;
+  line-height:   1.65;
 }
 a {
-    color:           $text-color;
-    font-weight:     bold;
-    text-decoration: underline;
-    cursor:          pointer;
+  color:           $text-color;
+  font-weight:     bold;
+  text-decoration: underline;
+  cursor:          pointer;
 }
 strong.important {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 hr {
-    border:        none;
-    border-bottom: 1px solid #d8d4d0;
-    margin-top:    20px;
-    margin-bottom: 30px;
+  border:        none;
+  border-bottom: 1px solid #d8d4d0;
+  margin-top:    20px;
+  margin-bottom: 30px;
 }
 .container {
-    width:  $field-width + $sidebar-width + $sidebar-margin-right;
-    margin: 0 auto;
+  width:  $field-width + $sidebar-width + $sidebar-margin-right;
+  margin: 0 auto;
 }
 @-webkit-keyframes fade-in {
-    0% {
-        opacity: 0;
-    }
+  0% {
+    opacity: 0;
+  }
 
-    100% {
-        opacity: 1;
-    }
+  100% {
+    opacity: 1;
+  }
 }
 @-moz-keyframes fade-in {
-    0% {
-        opacity: 0;
-    }
+  0% {
+    opacity: 0;
+  }
 
-    100% {
-        opacity: 1;
-    }
+  100% {
+    opacity: 1;
+  }
 }
 @keyframes fade-in {
-    0% {
-        opacity: 0;
-    }
+  0% {
+    opacity: 0;
+  }
 
-    100% {
-        opacity: 1;
-    }
+  100% {
+    opacity: 1;
+  }
 }
 .game-container {
-    margin-top:            20px;
-    position:              relative;
-    padding:               $grid-spacing;
-    cursor:                default;
-    -webkit-touch-callout: none;
-    -webkit-user-select:   none;
-    -moz-user-select:      none;
-    background:            #bbada0;
-    border-radius:         6px;
-    width:                 $field-width;
-    height:                $field-width;
-    float:                 left;
-    -webkit-box-sizing:    border-box;
-    -moz-box-sizing:       border-box;
-    box-sizing:            border-box;
+  margin-top:            20px;
+  position:              relative;
+  padding:               $grid-spacing;
+  cursor:                default;
+  -webkit-touch-callout: none;
+  -webkit-user-select:   none;
+  -moz-user-select:      none;
+  background:            #bbada0;
+  border-radius:         6px;
+  width:                 $field-width;
+  height:                $field-width;
+  float:                 left;
+  -webkit-box-sizing:    border-box;
+  -moz-box-sizing:       border-box;
+  box-sizing:            border-box;
 }
 .game-container .game-message, .game-container .saved-game-message {
-    display:                     none;
-    position:                    absolute;
-    top:                         0;
-    right:                       0;
-    bottom:                      0;
-    left:                        0;
-    background:                  rgba(238, 228, 218, 0.5);
-    z-index:                     100;
-    text-align:                  center;
-    -webkit-animation:           fade-in 800ms ease 1200ms;
-    -moz-animation:              fade-in 800ms ease 1200ms;
-    -webkit-animation-fill-mode: both;
-    -moz-animation-fill-mode:    both;
+  display:                     none;
+  position:                    absolute;
+  top:                         0;
+  right:                       0;
+  bottom:                      0;
+  left:                        0;
+  background:                  rgba(238, 228, 218, 0.5);
+  z-index:                     100;
+  text-align:                  center;
+  -webkit-animation:           fade-in 800ms ease 1200ms;
+  -moz-animation:              fade-in 800ms ease 1200ms;
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode:    both;
 }
 .game-container .game-message p, .game-container .saved-game-message p {
-    font-size:   60px;
-    font-weight: bold;
-    height:      60px;
-    line-height: 60px;
-    margin-top:  222px;
+  font-size:   60px;
+  font-weight: bold;
+  height:      60px;
+  line-height: 60px;
+  margin-top:  222px;
 }
 .game-container .game-message .lower, .game-container .saved-game-message .lower {
-    display:    block;
-    margin-top: 59px;
+  display:    block;
+  margin-top: 59px;
 }
 .game-container .game-message a, .game-container .saved-game-message a {
-    display:         inline-block;
-    background:      #8f7a66;
-    border-radius:   3px;
-    padding:         0 20px;
-    text-decoration: none;
-    color:           #f9f6f2;
-    height:          40px;
-    line-height:     42px;
-    margin-left:     9px;
+  display:         inline-block;
+  background:      #8f7a66;
+  border-radius:   3px;
+  padding:         0 20px;
+  text-decoration: none;
+  color:           #f9f6f2;
+  height:          40px;
+  line-height:     42px;
+  margin-left:     9px;
 }
 .game-container .game-message.game-won, .game-container .saved-game-message.game-won {
-    background: rgba(237, 194, 46, 0.5);
-    color:      #f9f6f2;
+  background: rgba(237, 194, 46, 0.5);
+  color:      #f9f6f2;
 }
 .game-container .game-message.game-won, .game-container .game-message.game-over, .game-container .saved-game-message.game-won {
-    display: block;
+  display: block;
 }
 .grid-container {
-    position: absolute;
-    z-index:  1;
+  position: absolute;
+  z-index:  1;
 }
 .grid-row {
-    margin-bottom: $grid-spacing;
+  margin-bottom: $grid-spacing;
 }
 .grid-row:last-child {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 .grid-row:after {
-    content: "";
-    display: block;
-    clear:   both;
+  content: "";
+  display: block;
+  clear:   both;
 }
 .grid-cell {
-    width:         $tile-size;
-    height:        $tile-size;
-    margin-right:  $grid-spacing;
-    float:         left;
-    border-radius: 3px;
-    background:    rgba(238, 228, 218, 0.35);
+  width:         $tile-size;
+  height:        $tile-size;
+  margin-right:  $grid-spacing;
+  float:         left;
+  border-radius: 3px;
+  background:    rgba(238, 228, 218, 0.35);
 }
 .grid-cell:last-child {
-    margin-right: 0;
+  margin-right: 0;
 }
 .tile-container {
-    position: absolute;
-    z-index:  2;
+  position: absolute;
+  z-index:  2;
 }
 .tile {
-    &, .tile-inner {
-        width:       ceil($tile-size);
-        height:      ceil($tile-size);
-        line-height: ceil($tile-size);
-    }
+  &, .tile-inner {
+    width:       ceil($tile-size);
+    height:      ceil($tile-size);
+    line-height: ceil($tile-size);
+  }
 
-    // Build position classes
-    @for $x from 1 through $grid-row-cells {
-        @for $y from 1 through $grid-row-cells {
-            &.tile-position-#{$x}-#{$y} {
-                $xPos: floor(($tile-size + $grid-spacing) * ($x - 1));
-                $yPos: floor(($tile-size + $grid-spacing) * ($y - 1));
-                @include transform(translate($xPos, $yPos));
-            }
-        }
+  // Build position classes
+  @for $x from 1 through $grid-row-cells {
+    @for $y from 1 through $grid-row-cells {
+      &.tile-position-#{$x}-#{$y} {
+        $xPos: floor(($tile-size + $grid-spacing) * ($x - 1));
+        $yPos: floor(($tile-size + $grid-spacing) * ($y - 1));
+        @include transform(translate($xPos, $yPos));
+      }
     }
+  }
 }
 .tile {
-    border-radius:               3px;
-    background:                  #eee4da;
-    text-align:                  center;
-    font-weight:                 bold;
-    z-index:                     10;
-    font-size:                   45px; /* was 55px */
-    -webkit-transition:          100ms ease-in-out;
-    -moz-transition:             100ms ease-in-out;
-    -webkit-transition-property: top, left;
-    -moz-transition-property:    top, left;
-
+  border-radius:               3px;
+  background:                  #eee4da;
+  text-align:                  center;
+  font-weight:                 bold;
+  z-index:                     10;
+  font-size:                   45px; /* was 55px */
+  -webkit-transition:          100ms ease-in-out;
+  -moz-transition:             100ms ease-in-out;
+  -webkit-transition-property: top, left;
+  -moz-transition-property:    top, left;
 }
-
 $color1: #f9ea62;
 $color2: #bedf95;
 $color3: #8bdfcf;
@@ -369,7 +367,7 @@ $bright-text-color: #f9f6f2;
 .tile.tile-4398046511104 { background: scale-color($color3, $lightness: -60%); }
 .tile.tile-8796093022208 { background: scale-color($color4, $lightness: -60%); }
 .tile.tile-17592186044416 { background: scale-color($color5, $lightness: -60%); }
-.tile.tile-35184372088832{ background: scale-color($color6, $lightness: -60%); }
+.tile.tile-35184372088832 { background: scale-color($color6, $lightness: -60%); }
 .tile.tile-70368744177664 { background: scale-color($color7, $lightness: -60%); }
 .tile.tile-140737488355328 { background: scale-color($color8, $lightness: -60%); }
 .tile.tile-281474976710656 { background: scale-color($color9, $lightness: -60%); }
@@ -379,272 +377,272 @@ $bright-text-color: #f9f6f2;
 .tile.tile-4503599627370496 { background: scale-color($color3, $lightness: -75%); }
 .tile.tile-9007199254740992 { background: scale-color($color4, $lightness: -75%); }
 @-webkit-keyframes appear {
-    0% {
-        opacity:           0;
-        -webkit-transform: scale(0);
-        -moz-transform:    scale(0);
-    }
+  0% {
+    opacity:           0;
+    -webkit-transform: scale(0);
+    -moz-transform:    scale(0);
+  }
 
-    100% {
-        opacity:           1;
-        -webkit-transform: scale(1);
-        -moz-transform:    scale(1);
-    }
+  100% {
+    opacity:           1;
+    -webkit-transform: scale(1);
+    -moz-transform:    scale(1);
+  }
 }
 @-moz-keyframes appear {
-    0% {
-        opacity:           0;
-        -webkit-transform: scale(0);
-        -moz-transform:    scale(0);
-    }
+  0% {
+    opacity:           0;
+    -webkit-transform: scale(0);
+    -moz-transform:    scale(0);
+  }
 
-    100% {
-        opacity:           1;
-        -webkit-transform: scale(1);
-        -moz-transform:    scale(1);
-    }
+  100% {
+    opacity:           1;
+    -webkit-transform: scale(1);
+    -moz-transform:    scale(1);
+  }
 }
 @keyframes appear {
-    0% {
-        opacity:           0;
-        -webkit-transform: scale(0);
-        -moz-transform:    scale(0);
-    }
+  0% {
+    opacity:           0;
+    -webkit-transform: scale(0);
+    -moz-transform:    scale(0);
+  }
 
-    100% {
-        opacity:           1;
-        -webkit-transform: scale(1);
-        -moz-transform:    scale(1);
-    }
+  100% {
+    opacity:           1;
+    -webkit-transform: scale(1);
+    -moz-transform:    scale(1);
+  }
 }
 .tile-new {
-    -webkit-animation:           appear 200ms ease 100ms;
-    -moz-animation:              appear 200ms ease 100ms;
-    -webkit-animation-fill-mode: both;
-    -moz-animation-fill-mode:    both;
+  -webkit-animation:           appear 200ms ease 100ms;
+  -moz-animation:              appear 200ms ease 100ms;
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode:    both;
 }
 @-webkit-keyframes pop {
-    0% {
-        -webkit-transform: scale(0);
-        -moz-transform:    scale(0);
-    }
+  0% {
+    -webkit-transform: scale(0);
+    -moz-transform:    scale(0);
+  }
 
-    50% {
-        -webkit-transform: scale(1.2);
-        -moz-transform:    scale(1.2);
-    }
+  50% {
+    -webkit-transform: scale(1.2);
+    -moz-transform:    scale(1.2);
+  }
 
-    100% {
-        -webkit-transform: scale(1);
-        -moz-transform:    scale(1);
-    }
+  100% {
+    -webkit-transform: scale(1);
+    -moz-transform:    scale(1);
+  }
 }
 @-moz-keyframes pop {
-    0% {
-        -webkit-transform: scale(0);
-        -moz-transform:    scale(0);
-    }
+  0% {
+    -webkit-transform: scale(0);
+    -moz-transform:    scale(0);
+  }
 
-    50% {
-        -webkit-transform: scale(1.2);
-        -moz-transform:    scale(1.2);
-    }
+  50% {
+    -webkit-transform: scale(1.2);
+    -moz-transform:    scale(1.2);
+  }
 
-    100% {
-        -webkit-transform: scale(1);
-        -moz-transform:    scale(1);
-    }
+  100% {
+    -webkit-transform: scale(1);
+    -moz-transform:    scale(1);
+  }
 }
 @keyframes pop {
-    0% {
-        -webkit-transform: scale(0);
-        -moz-transform:    scale(0);
-    }
+  0% {
+    -webkit-transform: scale(0);
+    -moz-transform:    scale(0);
+  }
 
-    50% {
-        -webkit-transform: scale(1.2);
-        -moz-transform:    scale(1.2);
-    }
+  50% {
+    -webkit-transform: scale(1.2);
+    -moz-transform:    scale(1.2);
+  }
 
-    100% {
-        -webkit-transform: scale(1);
-        -moz-transform:    scale(1);
-    }
+  100% {
+    -webkit-transform: scale(1);
+    -moz-transform:    scale(1);
+  }
 }
 .tile-merged {
-    z-index:                     20;
-    -webkit-animation:           pop 200ms ease 100ms;
-    -moz-animation:              pop 200ms ease 100ms;
-    -webkit-animation-fill-mode: both;
-    -moz-animation-fill-mode:    both;
+  z-index:                     20;
+  -webkit-animation:           pop 200ms ease 100ms;
+  -moz-animation:              pop 200ms ease 100ms;
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode:    both;
 }
 .game-intro {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 .game-explanation {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 @media screen and (max-width: 1200px) {
-    html, body {
-        font-size: 15px;
-    }
+  html, body {
+    font-size: 15px;
+  }
 
-    body {
-        margin:  20px 0;
-        padding: 0 20px;
-    }
+  body {
+    margin:  20px 0;
+    padding: 0 20px;
+  }
 
-    h1.title {
-        font-size:  24px;
-        margin-top: 15px;
-    }
+  h1.title {
+    font-size:  24px;
+    margin-top: 15px;
+  }
 
-    .container {
-        width:  $field-width + $sidebar-width + $sidebar-margin-right;
-        margin: 0 auto;
-    }
+  .container {
+    width:  $field-width + $sidebar-width + $sidebar-margin-right;
+    margin: 0 auto;
+  }
 
-    .score-container, .best-container {
-        margin-top: 0;
-        padding:    15px 10px;
-        min-width:  40px;
-        font-size:  18px;
-    }
+  .score-container, .best-container {
+    margin-top: 0;
+    padding:    15px 10px;
+    min-width:  40px;
+    font-size:  18px;
+  }
 
-    .score-container .score-addition, .best-container .score-addition {
-        font-size: 18px;
-    }
+  .score-container .score-addition, .best-container .score-addition {
+    font-size: 18px;
+  }
 
-    .heading {
-        margin-bottom: 10px;
-    }
+  .heading {
+    margin-bottom: 10px;
+  }
 
-    .game-container {
-        margin-top:            40px;
-        position:              relative;
-        padding:               10px;
-        cursor:                default;
-        -webkit-touch-callout: none;
-        -webkit-user-select:   none;
-        -moz-user-select:      none;
-        background:            #bbada0;
-        border-radius:         6px;
-        width:                 $field-width;
-        height:                $field-width;
-        -webkit-box-sizing:    border-box;
-        -moz-box-sizing:       border-box;
-        box-sizing:            border-box;
-    }
+  .game-container {
+    margin-top:            40px;
+    position:              relative;
+    padding:               10px;
+    cursor:                default;
+    -webkit-touch-callout: none;
+    -webkit-user-select:   none;
+    -moz-user-select:      none;
+    background:            #bbada0;
+    border-radius:         6px;
+    width:                 $field-width;
+    height:                $field-width;
+    -webkit-box-sizing:    border-box;
+    -moz-box-sizing:       border-box;
+    box-sizing:            border-box;
+  }
 
-    .game-container .game-message, .game-container .saved-game-message {
-        display:                     none;
-        position:                    absolute;
-        top:                         0;
-        right:                       0;
-        bottom:                      0;
-        left:                        0;
-        background:                  rgba(238, 228, 218, 0.5);
-        z-index:                     100;
-        text-align:                  center;
-        -webkit-animation:           fade-in 800ms ease 1200ms;
-        -moz-animation:              fade-in 800ms ease 1200ms;
-        -webkit-animation-fill-mode: both;
-        -moz-animation-fill-mode:    both;
-    }
+  .game-container .game-message, .game-container .saved-game-message {
+    display:                     none;
+    position:                    absolute;
+    top:                         0;
+    right:                       0;
+    bottom:                      0;
+    left:                        0;
+    background:                  rgba(238, 228, 218, 0.5);
+    z-index:                     100;
+    text-align:                  center;
+    -webkit-animation:           fade-in 800ms ease 1200ms;
+    -moz-animation:              fade-in 800ms ease 1200ms;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode:    both;
+  }
 
-    .game-container .game-message p, .game-container .saved-game-message p {
-        font-size:   60px;
-        font-weight: bold;
-        height:      60px;
-        line-height: 60px;
-        margin-top:  222px;
-    }
+  .game-container .game-message p, .game-container .saved-game-message p {
+    font-size:   60px;
+    font-weight: bold;
+    height:      60px;
+    line-height: 60px;
+    margin-top:  222px;
+  }
 
-    .game-container .game-message .lower, .game-container .saved-game-message .lower {
-        display:    block;
-        margin-top: 59px;
-    }
+  .game-container .game-message .lower, .game-container .saved-game-message .lower {
+    display:    block;
+    margin-top: 59px;
+  }
 
-    .game-container .game-message a, .game-container .saved-game-message a {
-        display:         inline-block;
-        background:      #8f7a66;
-        border-radius:   3px;
-        padding:         0 20px;
-        text-decoration: none;
-        color:           #f9f6f2;
-        height:          40px;
-        line-height:     42px;
-        margin-left:     9px;
-    }
+  .game-container .game-message a, .game-container .saved-game-message a {
+    display:         inline-block;
+    background:      #8f7a66;
+    border-radius:   3px;
+    padding:         0 20px;
+    text-decoration: none;
+    color:           #f9f6f2;
+    height:          40px;
+    line-height:     42px;
+    margin-left:     9px;
+  }
 
-    .game-container .game-message.game-won, .game-container .saved-game-message.game-won {
-        background: rgba(237, 194, 46, 0.5);
-        color:      #f9f6f2;
-    }
+  .game-container .game-message.game-won, .game-container .saved-game-message.game-won {
+    background: rgba(237, 194, 46, 0.5);
+    color:      #f9f6f2;
+  }
 
-    .game-container .game-message.game-won, .game-container .game-message.game-over, .game-container .saved-game-message.game-won {
-        display: block;
-    }
+  .game-container .game-message.game-won, .game-container .game-message.game-over, .game-container .saved-game-message.game-won {
+    display: block;
+  }
 
-    .grid-container {
-        position: absolute;
-        z-index:  1;
-    }
+  .grid-container {
+    position: absolute;
+    z-index:  1;
+  }
 
-    .grid-row {
-        margin-bottom: 10px;
-    }
+  .grid-row {
+    margin-bottom: 10px;
+  }
 
-    .grid-row:last-child {
-        margin-bottom: 0;
-    }
+  .grid-row:last-child {
+    margin-bottom: 0;
+  }
 
-    .grid-row:after {
-        content: "";
-        display: block;
-        clear:   both;
-    }
+  .grid-row:after {
+    content: "";
+    display: block;
+    clear:   both;
+  }
 
-    .grid-cell {
-        width:         $tile-size;
-        height:        $tile-size;
-        margin-right:  10px;
-        float:         left;
-        border-radius: 3px;
-        background:    rgba(238, 228, 218, 0.35);
-    }
+  .grid-cell {
+    width:         $tile-size;
+    height:        $tile-size;
+    margin-right:  10px;
+    float:         left;
+    border-radius: 3px;
+    background:    rgba(238, 228, 218, 0.35);
+  }
 
-    .grid-cell:last-child {
-        margin-right: 0;
-    }
+  .grid-cell:last-child {
+    margin-right: 0;
+  }
 
-    .tile-container {
-        position: absolute;
-        z-index:  2;
-    }
+  .tile-container {
+    position: absolute;
+    z-index:  2;
+  }
 
-    .tile {
-        width:       57.5px;
-        height:      57.5px;
-        line-height: 67.5px;
-    }
+  .tile {
+    width:       57.5px;
+    height:      57.5px;
+    line-height: 67.5px;
+  }
 
-    .game-container {
-        margin-top: 20px;
-    }
+  .game-container {
+    margin-top: 20px;
+  }
 
-    .tile {
-        font-size: 25px;
-    }
+  .tile {
+    font-size: 25px;
+  }
 
-    .game-message p, .saved-game-message p {
-        font-size:   30px !important;
-        height:      30px !important;
-        line-height: 30px !important;
-        margin-top:  90px !important;
-    }
+  .game-message p, .saved-game-message p {
+    font-size:   30px !important;
+    height:      30px !important;
+    line-height: 30px !important;
+    margin-top:  90px !important;
+  }
 
-    .game-message .lower, .saved-game-message .lower {
-        margin-top: 30px !important;
-    }
+  .game-message .lower, .saved-game-message .lower {
+    margin-top: 30px !important;
+  }
 }
