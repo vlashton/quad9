@@ -11,11 +11,28 @@ function GameManager(size, InputManager, Actuator, ScoreManager) {
     this.inputManager.on("loadGame", this.loadGame.bind(this));
     this.inputManager.on("startNew", this.startNew.bind(this));
 
+    this.displayCells();
+
     if (this.scoreManager.hasData(this.size))
         this.displayMessage();
     else {
         this.scoreManager.clearState();
         this.setup();
+    }
+}
+
+GameManager.prototype.displayCells = function() {
+    var gridContainer = document.querySelector(".grid-container");
+    for (var x = 0; x < this.size; x++) {
+        var row = document.createElement("div");
+        row.className = "grid-row";
+
+        for (var y = 0; y < this.size; y++) {
+            var cell = document.createElement("div");
+            cell.className = "grid-cell";
+            row.appendChild(cell);
+        }
+        gridContainer.appendChild(row);
     }
 }
 
@@ -88,8 +105,23 @@ GameManager.prototype.autoSave = function () {
 
 // Set up the initial tiles to start the game with
 GameManager.prototype.addStartTiles = function () {
+    this.addSequentialTiles();
     for (var i = 0; i < this.startTiles; i++) {
         this.addRandomTile();
+    }
+};
+
+// Populates all available tiles with increasing values
+GameManager.prototype.addSequentialTiles = function () {
+    var power = 0;
+    var cells = this.grid.availableCells();
+    while (cells.length > 0 && power < 86) {
+        power += 1;
+        var value = Math.pow(2, power);
+        var tile = new Tile(cells[1], value);
+
+        this.grid.insertTile(tile);
+        cells = this.grid.availableCells();
     }
 };
 
